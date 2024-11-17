@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Werkzeug
+Pillow
+numpy
+pycuda
+setuptools
