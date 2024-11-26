@@ -14,4 +14,4 @@ WORKDIR /app
 EXPOSE 5000
 
 # Comando para iniciar Flask
-CMD ["python3", "servidor.py"]
+CMD ["python3", "app.py"]

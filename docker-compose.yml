@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  api:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      - SQLALCHEMY_DATABASE_URI=postgresql://FilterApp:FilterApp@db/FilterApp
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: FilterApp
+      POSTGRES_PASSWORD: FilterApp
+      POSTGRES_DB: FilterApp
+    ports:
+      - "5432:5432"

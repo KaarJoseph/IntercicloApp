@@ -5,3 +5,6 @@ Pillow
 numpy
 pycuda
 setuptools
+psycopg2-binary
+flask-cors
+flask-session
