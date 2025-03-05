@@ -52,5 +52,5 @@
 
 ### 1. Clonar el Repositorio
 ```bash
-git clone https://github.com/usuario/filterapp.git
+git clone https://github.com/KaarJoseph/filterapp.git
 cd filterapp
